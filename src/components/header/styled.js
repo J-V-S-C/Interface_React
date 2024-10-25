@@ -9,6 +9,10 @@ export const DivMain = styled.main`
    padding-bottom : 50px;
    box-shadow: 0 6px 10px 0 rgb(225, 225, 20, 1), 0 6px 20px 0 rgb(225, 255, 20, 0.5);
 
+   @media (max-width: 800px){
+     
+   }
+
 `
 
 export const DivSearch = styled.div`
@@ -18,8 +22,11 @@ export const DivSearch = styled.div`
     flex-direction: row;
     gap: 50px;
     svg{
-    margin-top: 20px;
+        margin-top: 20px;
         color: yellow;
+    }
+   @media (max-width: 800px){
+        gap: 20px;
     }
 
 
@@ -73,6 +80,12 @@ export const NavStyled = styled.nav`
         margin-top: 10px;
     }
 
+
+   @media (max-width: 800px){
+     gap: 70px;
+
+   }
+
  
 `
 
@@ -81,8 +94,13 @@ export const InputSearch = styled.input`
 
     margin-top: 30px;
     height: 30px;
-    width: 800px;
+    width: 50%;
     border-radius: 8px;
+
+   @media (max-width: 800px){
+    width: 80%;
+   }
+
 
 `
 export const DivLink = styled.div`

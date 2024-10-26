@@ -11,25 +11,25 @@ export default function Header() {
             <FaHome size={50} />
           </Link>
           <InputSearch type="text"></InputSearch>
-          <Link to="">
+          <Link to="*">
             <FaUser size={50} />
           </Link>
         </DivSearch>
         <NavStyled>
           <div>
-            <Link to="" className="configLink">
+            <Link to="*" className="configLink">
               Categorias
             </Link>
-            <Link to="" className="configLink">
+            <Link to="*" className="configLink">
               Ofertas
             </Link>
-            <Link to="" className="configLink">
+            <Link to="*" className="configLink">
               Histórico
             </Link>
-            <Link to="" className="configLink">
+            <Link to="*" className="configLink">
               Vender
             </Link>
-            <Link to="" className="configLink">
+            <Link to="*" className="configLink">
               Suporte
             </Link>
           </div>{" "}
@@ -40,7 +40,7 @@ export default function Header() {
             <Link to="login" className="configLink">
               Logar
             </Link>
-            <Link to="" className="cart">
+            <Link to="*" className="cart">
               <FaShoppingCart size={25} />
               <p id="amount">N°</p>
             </Link>

@@ -15,6 +15,7 @@ export const DivMain = styled.main`
     border-radius: 0.75rem;
     box-shadow: 0rem 0.2rem 0.8rem rgb(0, 0, 0);
     gap: 2rem;
+    
 
     h1{
         color: rgb(240, 240, 240); 
@@ -55,11 +56,11 @@ export const ButtonEdited = styled.button`
     font-size: 1rem;
     font-weight: bold;
     transition: background-color 0.3s;
-
+    
 
     &:hover {
         background-color: rgb(30, 30, 30);
-     }
+    }
 
     svg {
         position: absolute;
@@ -68,15 +69,23 @@ export const ButtonEdited = styled.button`
         top: 0;
         left: 0;
         fill: none;
-        stroke: #fff;
+        stroke-width: 3;
+    }
+
+       .line {
+        stroke: rgb(120, 120, 120);
         stroke-dasharray: 150 480;
-        stroke-dashoffset: 150;
+        stroke-dashoffset: 480; 
         transition: stroke-dashoffset 1s ease-in-out;
     }
 
-    &:hover svg {
-        stroke-dashoffset: -480;
+
+    &:hover .line {
+        stroke-dashoffset: 0; 
     }
+
+    
+
 
     
 

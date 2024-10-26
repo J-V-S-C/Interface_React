@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components"
+import styled, { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 
@@ -12,7 +12,7 @@ export default createGlobalStyle`
         
     }
 
-    input, button {
+    button {
         font-family: inherit;
 
         &:hover{
@@ -24,4 +24,4 @@ export default createGlobalStyle`
 
 
 
-`
+`;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const DivMain = styled.main`
 
@@ -44,8 +44,16 @@ export const InputEdited = styled.input`
     }
 `
 
-export const ButtonEdited = styled.button`
+const animateLine = keyframes`
+  0% {
+    stroke-dashoffset: 480;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+`;
 
+export const ButtonEdited = styled.button`
     position: relative;
     background-color: transparent;
     color: rgb(255, 255, 255);
@@ -56,7 +64,6 @@ export const ButtonEdited = styled.button`
     font-size: 1rem;
     font-weight: bold;
     transition: background-color 0.3s;
-    
 
     &:hover {
         background-color: rgb(30, 30, 30);
@@ -72,22 +79,15 @@ export const ButtonEdited = styled.button`
         stroke-width: 3;
     }
 
-       .line {
+    .line {
         stroke: rgb(120, 120, 120);
-        stroke-dasharray: 150 480;
-        stroke-dashoffset: 480; 
+        stroke-dasharray: 0 480;
         transition: stroke-dashoffset 1s ease-in-out;
     }
 
-
     &:hover .line {
-        stroke-dashoffset: 0; 
+        stroke-dasharray: 150 480;
+        animation: ${animateLine} 2s ease-in-out forwards; 
     }
 
-    
-
-
-    
-
 `
-

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "../../components/header"
 import { DivMain, InputEdited, ButtonEdited} from "./style"
 
@@ -16,7 +16,7 @@ export default function Login(){
                     <svg width="100%" height="100%" viewBox="0 0 400 40"> 
                         <polyline points="406,1 406,39 -6,39 -6,1 406,1" className="line" />
                     </svg>
-                    <span>Enviar</span>
+                    <span>Logar</span>
                </ButtonEdited> 
             </DivMain>
 

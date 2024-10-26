@@ -15,7 +15,7 @@ export default function Header(){
                             <FaHome size={50} />
                         </Link>
                         <InputSearch type="text"></InputSearch>
-                        <Link to="/login">
+                        <Link to="">
                             <FaUser size={50} />
                         </Link>
                     </DivSearch>
@@ -30,7 +30,7 @@ export default function Header(){
                         {" "}
                         <div>
                             <Link to="" className='configLink'>Cadastrar</Link>
-                            <Link to="" className='configLink'>Logar</Link>
+                            <Link to="login" className='configLink'>Logar</Link>
                             <Link to="" className="cart">
                                 <FaShoppingCart size={25}/>
                                 <p id="amount">N°</p>

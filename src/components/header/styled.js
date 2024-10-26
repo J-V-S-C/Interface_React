@@ -41,7 +41,7 @@ export const NavStyled = styled.nav`
 
     .configLink{
         &:hover{
-            color: aqua;
+            color: rgb(90, 210, 250);
             opacity: 90%;
         }
     }

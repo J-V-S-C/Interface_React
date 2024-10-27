@@ -31,7 +31,7 @@ export const NavStyled = styled.nav`
   justify-content: center;
   gap: 8rem;
 
-  .configLink {
+  .configHover {
     &:hover {
       color: rgb(90, 210, 250);
       opacity: 90%;
@@ -63,13 +63,13 @@ export const NavStyled = styled.nav`
   }
 
   svg {
-    margin-top: 0.6rem;
     vertical-align: middle;
   }
 
   .cart {
     margin-top: 0.6rem;
   }
+
 
   @media (max-width: 800px) {
     gap: 70px;
@@ -86,4 +86,46 @@ export const InputSearch = styled.input`
     width: 80%;
   }
 `;
-export const DivLink = styled.div``;
+export const DivLink = styled.div`
+
+`;
+
+
+export const ButtonStyled = styled.button`
+
+  background-color: transparent;
+  color: yellow;
+  border: none;
+
+`
+
+export const Categorias = styled.div`
+
+  position: absolute;
+  margin-top: 2em;
+  background-color: rgb(15, 15, 15);
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+
+  a {
+    text-decoration: none;
+    color: yellow;
+    padding: 0.5em 0;
+  }
+
+  a:hover {
+    color: rgb(90, 210, 250);
+  }
+`
+
+
+
+
+export const DivButton = styled.div`
+
+display: flex;
+flex-direction: column;
+`

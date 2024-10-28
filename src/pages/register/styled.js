@@ -42,7 +42,7 @@ const animateLine = keyframes`
     stroke-dashoffset: 480;
   }
   100% {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: -165;
   }
 `;
 

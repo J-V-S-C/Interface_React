@@ -1,5 +1,4 @@
 import styled, { keyframes } from "styled-components";
-import { Link } from "react-router-dom";
 
 export const DivMain = styled.main`
   width: 80%;
@@ -24,32 +23,6 @@ export const DivMain = styled.main`
   }
 `;
 
-export const Nav = styled.nav`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgb(102, 255, 0);
-  gap: 2rem;
-  
-  .Hr {
-    border: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    width: 100%;
-  }
-`;
-
-export const DivMenu = styled.menu`    
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 350px;
-  background: rgb(10, 22, 30);
-  border-radius: 0.5em;
-  text-align: center;
-  padding: 1em 0;
-  gap: 1.5rem;
-`;
-
 export const InputEdited = styled.input`
   background-color: rgb(60, 60, 60);
   color: rgb(255, 255, 255);
@@ -70,7 +43,7 @@ const animateLine = keyframes`
     stroke-dashoffset: 480;
   }
   100% {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: -165;
   }
 `;
 
@@ -113,44 +86,4 @@ export const ButtonEdited = styled.button`
   }
 `;
 
-export const Img = styled.img`
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-top: 1.5rem;
-`;
 
-export const LinkEdited = styled(Link)`
-  color: rgb(102, 255, 0);
-  text-decoration: none;
-
-  &:hover {
-    opacity: 0.7;
-  }
-`;
-
-export const ButtonForm = styled.button`
-  background-color: rgb(102, 255, 0);
-  color: rgb(10, 10, 10);
-  border: none;
-  border-radius: 0.3rem;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  cursor: pointer;
-
-  &:hover {
-    background-color: rgb(80, 200, 0);
-  }
-`;
-
-export const Accounts = styled.div`
-  background-color: gray;
-  width: 100%;
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  gap: 1rem;
-`;

@@ -51,8 +51,8 @@ export default function UserPage() {
                     ></Img>
 
                     <ButtonEdited onClick={() => visibility("name")}>
-                        <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                        <svg width="25rem" height="12.5rem" viewBox="0 0 400 40">
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         <span>Nome</span>
                         <FaArrowRight size={18} className="arrow" />
@@ -69,8 +69,8 @@ export default function UserPage() {
                     )}
 
                     <ButtonEdited onClick={() => visibility("address")}>
-                        <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                        <svg width="100%" height="100%" viewBox="0 0 400 40" >
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         <span>Endereço</span>
                         <FaArrowRight size={18} className="arrow" />
@@ -86,7 +86,7 @@ export default function UserPage() {
 
                     <ButtonEdited onClick={() => visibility("tel")}>
                         <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         <span>Telefone</span>
                         <FaArrowRight size={18} className="arrow" />
@@ -100,7 +100,7 @@ export default function UserPage() {
 
                     <ButtonEdited onClick={() => visibility("email")}>
                         <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         <span>E-mail</span>
                         <FaArrowRight size={18} className="arrow" />
@@ -122,7 +122,7 @@ export default function UserPage() {
                     <br></br>
                     <ButtonEdited onClick={() => visibility("changeAccount")}>
                         <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         <span>Trocar Conta</span>
                         <FaArrowDown size={18} className="arrow" />
@@ -135,7 +135,7 @@ export default function UserPage() {
                     )}
                     <ButtonEdited>
                         <svg width="100%" height="100%" viewBox="0 0 400 40">
-                            <polyline points="399,1 399,39 -9,39 -9,1 399,1" className="line" />
+                            <polyline points="400,1 400,39 -9,39 -9,1 400,1" className="line" />
                         </svg>
                         Sair</ButtonEdited>
                 </DivMenu>

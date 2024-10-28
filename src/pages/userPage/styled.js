@@ -5,10 +5,10 @@ import styled, { keyframes } from "styled-components";
 
 const animateLine = keyframes`
   0% {
-    stroke-dashoffset: 480;
+    stroke-dashoffset: 1000;
   }
   100% {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 332;
   }
 `;
 
@@ -105,8 +105,9 @@ export const ButtonEdited = styled.button`
     width: 100%;
     height: 100%;
     fill: none;
-    stroke-width: 3;    
-  }
+    stroke-width: 3;  
+      
+    }
 
   .arrow{
     margin-left: 10.5em;

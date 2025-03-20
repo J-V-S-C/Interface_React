@@ -59,7 +59,6 @@
 
 ```sh
 └── Interface_React/
-    ├── README.md
     ├── package-lock.json
     ├── package.json
     ├── public

@@ -58,24 +58,46 @@
 ## Project Structure
 
 ```sh
-└── Interface_React/
-    ├── package-lock.json
-    ├── package.json
-    ├── public
-    │   ├── favicon.ico
-    │   ├── index.html
-    │   ├── logo192.png
-    │   ├── logo512.png
-    │   ├── manifest.json
-    │   └── robots.txt
-    └── src
-        ├── App.js
-        ├── components
-        ├── index.js
-        ├── pages
-        ├── routes
-        ├── services
-        └── styles
+├── package.json
+├── package-lock.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── README.md
+└── src
+    ├── App.js
+    ├── components
+    │   ├── file.js
+    │   └── header
+    │       ├── index.js
+    │       └── styled.js
+    ├── index.js
+    ├── pages
+    │   ├── home
+    │   │   └── index.js
+    │   ├── login
+    │   │   ├── index.js
+    │   │   └── style.js
+    │   ├── page404
+    │   │   ├── index.js
+    │   │   └── styled.js
+    │   ├── register
+    │   │   ├── index.js
+    │   │   └── styled.js
+    │   └── userPage
+    │       ├── index.js
+    │       └── styled.js
+    ├── routes
+    │   ├── index.js
+    │   └── MyRoute.js
+    ├── services
+    │   └── history.js
+    └── styles
+        └── GlobalStyle.js
 ```
 
 ### Project Index

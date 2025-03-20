@@ -3,7 +3,8 @@
 <!-- HEADER STYLE: COMPACT -->
 <img src="readmeai/assets/logos/purple.svg" width="30%" align="left" style="margin-right: 15px">
 
-# INTERFACE_REACT
+# INTERFACE_REACT 
+(Just a simple interface)
 <em></em>
 
 <!-- BADGES -->

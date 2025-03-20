@@ -3,7 +3,7 @@
 <!-- HEADER STYLE: COMPACT -->
 
 # INTERFACE_REACT 
-<em>s</em>
+<em>Just a simple interface</em>
 
 <!-- BADGES -->
 <!-- local repository, no metadata badges. -->
